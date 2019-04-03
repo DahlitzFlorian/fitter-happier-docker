@@ -46,7 +46,7 @@ jobs:
             docker tag fitter-happier-docker $DOCKER_HUB_USER_ID/fitter-happier-docker:latest
             docker push $DOCKER_HUB_USER_ID/fitter-happier-docker:$CIRCLE_SHA1
             docker push $DOCKER_HUB_USER_ID/fitter-happier-docker:latest
-         
+
 workflows:
   version: 2
   build-master:
